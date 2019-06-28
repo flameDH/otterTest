@@ -32,7 +32,7 @@ conf下為config及routes
 
 ## config
 
-![](https://i.imgur.com/ey6U3wQ.png)
+![](https://i.imgur.com/9CulCyA.png)
 
 此檔案為 /conf/application.conf
 在362行處
