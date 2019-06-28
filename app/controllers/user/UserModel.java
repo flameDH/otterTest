@@ -30,13 +30,14 @@ public class UserModel {
 	}
 	
 
-	 /**
+	 /** 
 	  * 拉出符合 pattern的資料開始找蘿蔔塞坑
 	  * @param conn
 	  * @param userName
 	  * @return
 	  * @throws Exception
 	  */
+	
 	public JSONArray checkUser(Connection conn,String userName) throws Exception {
 		String sql="SELECT USER_NAME FROM USER WHERE USER_NAME REGEXP ? ORDER BY LENGTH(USER_NAME),USER_NAME";
 		JSONArray params = new JSONArray();

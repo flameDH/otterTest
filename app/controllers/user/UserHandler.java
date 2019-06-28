@@ -6,12 +6,13 @@ import org.json.JSONObject;
 
 public class UserHandler {
 
-	/**
+	/** 
 	 * 將所有相符的pattern照順序檢驗 找到坑就塞下去
 	 * @param 
 	 * @return
 	 * @throws JSONException
 	 */
+	
 	public String processId(String userName,JSONArray data) throws JSONException {
 		int count=0;
 		

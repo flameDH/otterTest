@@ -22,7 +22,7 @@ public class UserController extends Controller {
 	private UserModel m_model;
 	private UserHandler m_handler;
 
-	/***
+	/***   
 	 *說明 
 	 *用正規表示式拉出與註冊username相同的pattern  例如 mike5 會拉出mike51 mike52 mike53 mike 5566
 	 *將結果用userName長度及userName做排序
@@ -32,6 +32,7 @@ public class UserController extends Controller {
 	 *
 	 *此外有用transaction lock table 同時只能有一個人處理 確保無誤
 	 */
+	 
 	
 	@Inject
 	public UserController(UserModel model, UserHandler handler) {
