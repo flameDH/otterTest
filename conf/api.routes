@@ -3,3 +3,4 @@
 # ~~~~
 
 POST  /user    controllers.user.UserController.register()
+POST  /car     controllers.car.carController.insertData()
