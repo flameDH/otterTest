@@ -67,3 +67,19 @@ input example:
     {
 	    "username":"input"
     }
+
+### 新增api
+
+URL:
+
+http://127.0.0.1:9000/api/car
+
+input:
+
+    {
+        "color": "black",
+        "brand":"mazuda",
+        "city":"KH"
+    }
+
+當作對照組使用
